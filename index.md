@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "FIXME"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+venue: "Australian Carpentries Consortium"        # "Australian Carpentries Consortium"
+address: 'online'      # "online"
+country: "W3"      # "W3"
+language: "en"     # "en"
 latitude: "45"        # decimal latitude of training venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the training venue (use https://www.latlong.net)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of trainers' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+humandate: "Aug 22-25, 2023"    # "Aug 22-25, 2023"
+humantime: "9:00 am - 1:00 pm AWST"    # "9:00 am - 1:00 pm AWST"
+startdate: 2023-08-22      # 2023-08-22
+enddate: 2023-08-25        # 2023-08-25
+instructor: ["Ann Backhaus", "Sara King"] # ["Ann Backhaus", "Sara King"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+contact: ["ann.backhaus@csiro.au", "sara.king@aarnet.edu.au"]    # ["ann.backhaus@csiro.au", "sara.king@aarnet.edu.au"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -331,37 +331,39 @@ FOUR DAY SCHEDULE
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>13:35</td> <td>Motivation and Demotivation </td> </tr>
-      <tr> <td>14:35</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
-      <tr> <td>15:15</td> <td>Break </td> </tr>
-      <tr> <td>15:30</td> <td>Teaching Is a Skill </td> </tr>
-      <tr> <td>16:30</td> <td>Wrap-up and Homework </td> </tr>
-      <tr> <td>16:50</td> <td>Finish day 2</td> </tr>
+      <tr> <td>9:00</td> <td>Welcome back </td> </tr>
+      <tr> <td>9:15</td> <td>Motivation and Demotivation </td> </tr>
+      <tr> <td>10:15</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
+      <tr> <td>10:55</td> <td>Break </td> </tr>
+      <tr> <td>11:25</td> <td>Teaching Is a Skill </td> </tr>
+      <tr> <td>12:40</td> <td>Wrap-up and Homework </td> </tr>
+      <tr> <td>13:00</td> <td>Finish day 2</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 3</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Getting Started on Instructor Certification </td> </tr>
-      <tr> <td>09:40</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>10:25</td> <td>Break </td> </tr>
-      <tr> <td>10:40</td> <td>Live Coding Is a Skill </td> </tr>
-      <tr> <td>11:45</td> <td>Preparing to Teach </td> </tr>
-      <tr> <td>12:30</td> <td>Finish day 3 </td> </tr>
+      <tr> <td>09:15</td> <td>Getting Started on Instructor Certification </td> </tr>
+      <tr> <td>09:45</td> <td>The Carpentries: How We Operate </td> </tr>
+      <tr> <td>10:30</td> <td>Break </td> </tr>
+      <tr> <td>11:00</td> <td>Live Coding Is a Skill </td> </tr>
+      <tr> <td>12:50</td> <td>Preparing to Teach </td> </tr>
+      <tr> <td>12:55</td> <td>Finish day 3 </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 4</h3>
     <table class="table table-striped">
-      <tr> <td>13:30</td> <td>More Practice Live Coding </td> </tr>
-      <tr> <td>14:15</td> <td>Working with Your Team</td> </tr>
-      <tr> <td>15:25</td> <td>Break </td> </tr>
-      <tr> <td>15:40</td> <td>Launches and Landings </td> </tr>
-      <tr> <td>16:20</td> <td>Putting it Together </td> </tr>
-      <tr> <td>16:40</td> <td>Wraping Up </td> </tr>
-      <tr> <td>16:50</td> <td>Post-Training Survey </td> </tr>
-      <tr> <td>17:05</td> <td>Finish </td> </tr>
+      <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
+      <tr> <td>09:15</td> <td>More Practice Live Coding </td> </tr>
+      <tr> <td>10:15</td> <td>Working with Your Team</td> </tr>
+      <tr> <td>10:45</td> <td>Break </td> </tr>
+      <tr> <td>11:15</td> <td>Launches and Landings </td> </tr>
+      <tr> <td>11:45</td> <td>Putting it Together </td> </tr>
+      <tr> <td>12:05</td> <td>Wrapping Up </td> </tr>
+      <tr> <td>12:20</td> <td>Post-Training Survey </td> </tr>
+      <tr> <td>12:30</td> <td>Finish </td> </tr>
     </table>
   </div>
 </div>
