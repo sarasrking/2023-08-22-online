@@ -2,17 +2,17 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 venue: "Australian Carpentries Consortium"        # "Australian Carpentries Consortium"
-address: 'online'      # "online"
+address: "online"      # "online"
 country: "W3"      # "W3"
 language: "en"     # "en"
-latitude: "45"        # decimal latitude of training venue (use https://www.latlong.net/)
-longitude: "-1"       # decimal longitude of the training venue (use https://www.latlong.net)
+latitude:         # decimal latitude of training venue (use https://www.latlong.net/)
+longitude:      # decimal longitude of the training venue (use https://www.latlong.net)
 humandate: "Aug 22-25, 2023"    # "Aug 22-25, 2023"
 humantime: "9:00 am - 1:00 pm AWST"    # "9:00 am - 1:00 pm AWST"
 startdate: 2023-08-22      # 2023-08-22
 enddate: 2023-08-25        # 2023-08-25
 instructor: ["Ann Backhaus", "Sara King"] # ["Ann Backhaus", "Sara King"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper:      # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["ann.backhaus@csiro.au", "sara.king@aarnet.edu.au"]    # ["ann.backhaus@csiro.au", "sara.king@aarnet.edu.au"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
